@@ -331,6 +331,7 @@ p {
   position: absolute;
   top: -20px;
   right: 16px;
+  transform: translateY(20%);
   opacity: 0;
   transition: all var(--animation-duration) ease-in;
 }
@@ -344,7 +345,7 @@ p {
 }
 
 .work__projects.anim-out {
-  opacity: 0.6;
+  opacity: 0;
   transform: scale(0.96) translateY(40px);
 }
 
@@ -365,6 +366,7 @@ p {
 .project__img {
   max-width: 100%;
   max-height: 100%;
+  align-self: center;
 }
 
 .project_description {
