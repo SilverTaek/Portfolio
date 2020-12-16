@@ -250,7 +250,7 @@ p {
 }
 
 #skills {
-  background-color: var(--color-yellow);
+  background-color: var(--color-light-white);
 }
 .skill {
   margin-bottom: 32px;
@@ -411,6 +411,11 @@ p {
 
 .testimonials {
   margin: 40px;
+
+}
+.awardlist li{
+  padding: 20px;
+  text-align: center;
 }
 .testimonial {
   display: flex;
